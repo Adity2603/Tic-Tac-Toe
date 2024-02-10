@@ -1,0 +1,90 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+.navbar{
+    font-family: 'Playpen Sans', cursive;
+
+    margin-top: 15px;
+    background-color: rgb(126, 212, 235);
+    border-radius: 15px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 10px;
+
+}
+.container{
+    margin-top: 15px;
+    /* border: 2px solid black; */
+    
+    
+}
+.gamecontainer{
+    /* border: 2px solid red ; */
+    height: 70vmin;
+    margin: auto;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    margin: 10px;
+    width: 20vmin;
+    height: 20vmin;
+    font-size: 50px;
+    background-color: transparent;
+    /* border: 1px solid black; */
+    border: 0.001;
+    color: black;
+    font-family: 'Playpen Sans', cursive;
+    
+}
+
+.box:hover{
+    background-color: rgb(236, 233, 133);
+}
+
+
+.reset-btn{
+
+    width: 10%;
+    padding: 5px;
+    margin: 10px;
+    background-color: transparent;
+    border: 0;
+    font-size: 200%;
+    font-family: 'Playpen Sans', cursive;
+
+}
+.reset-btn:hover{
+    background-color: rgb(242, 186, 195);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.show{
+    
+    font-size: 300%;
+    font-family: 'Playpen Sans', cursive;
+}
+
+
+@media screen and (max-width:600px)
+{
+    .box{
+        margin: 8px;
+        width: 18vmin;
+        height: 18vmin;
+        font-size: 30px;
+    }
+}
